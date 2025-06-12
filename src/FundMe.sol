@@ -78,7 +78,7 @@ contract FundMe {
     receive() external payable {
         fund();
     }
-}
+} 
 
 // Concepts we didn't cover yet (will cover in later sections)
 // 1. Enum

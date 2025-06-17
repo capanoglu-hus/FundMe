@@ -1,66 +1,111 @@
-## Foundry
+# **FUND ME FOUNDRY  -  CYFRİN UPDRAFT**
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+https://updraft.cyfrin.io/courses/foundry
 
-## Documentation
 
-https://book.getfoundry.sh/
 
-## Usage
 
-### Build
+#### ➤ *forge script* "..." *--rpc-url* "SEPOLIA_RPC_URL" *--private-key* "0x..." *--broadcast*
 
-```shell
-$ forge build
-```
 
-### Test
+used to deploy the contract
 
-```shell
-$ forge test
-```
 
-### Format
+#### ➤ *forge test --fork-url "SEPOLIA_RPC_URL"*
 
-```shell
-$ forge fmt
-```
 
-### Gas Snapshots
+used for test contracts
 
-```shell
-$ forge snapshot
-```
 
-### Anvil
+#### ➤ *forge test --match-test "..." -vvv*
 
-```shell
-$ anvil
-```
 
-### Deploy
+used to test specific test functions and view their details
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
 
-### Cast
+#### ➤ *forge coverage*
 
-```shell
-$ cast <subcommand>
-```
 
-### Help
+used to find out what percentage of all contracts have been tested
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+
+#### ➤  *forge snapshot*
+
+
+used to learn about gas usage in the contract
+
+
+#### ➤  *forge inspect* "..." *storageLayout*  
+
+
+used to find out how much space certain functions take up in storage
+        
+       
+
+
+
+
+## **CheatCodes** 
+
+
+
+
+#### ➥ vm.exceptRevert()
+
+
+When testing, it deliberately returns an error as if it had found a bug in the contract.
+
+
+#### ➥ vm.prank()
+
+
+creating a fake address and deploying it with that address
+
+
+#### ➥ makeAddr()
+
+
+creates a fake user-dependent address
+
+
+#### ➥ vm.deal(user, amount)
+
+
+assigning fake money to the user address
+
+
+#### ➥ hoax(address, amount) 
+
+
+sending fake money to an address
+
+
+#### ➥ chisel 
+
+
+You write the Solidity code in the terminal
+
+
+#### ➥ vm.txGasPrice()
+
+
+transaction determines gas price
+
+
+#### ➥ gasLeft()
+
+
+measuring the remaining gas
+
+
+
+
+
+
+
+## TEST RESULT
+
+
+

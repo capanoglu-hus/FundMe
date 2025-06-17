@@ -107,5 +107,16 @@ measuring the remaining gas
 
 ## TEST RESULT
 
+#### CONSOL TEST
 
+
+
+![Ekran görüntüsü 2025-06-17 175840](https://github.com/user-attachments/assets/8dc8b93a-35f8-484e-a40b-45090325bc41)
+
+
+
+#### SEPOLIA TEST 
+
+
+![Ekran görüntüsü 2025-06-17 180557](https://github.com/user-attachments/assets/89568ead-592b-4f65-98f1-1a4fe8156345)
 
